@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recycler View"/>
+    <Button
+        android:id="@+id/btnSurfaceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surface VIew"/>
+    <Button
+        android:id="@+id/btnService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Service"/>
+    <Button
+        android:id="@+id/btnBoundService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bound Service"/>
+    <Button
+        android:id="@+id/btnIntentService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntentService"/>
+    <Button
+        android:id="@+id/btnConnectionService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Service"/>
+    <Button
+        android:id="@+id/btnAsyncTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Async Task"/>
+    <Button
+        android:id="@+id/btnAsyncTaskLoadWebPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Async Task Load Web Page"/>
+    <Button
+        android:id="@+id/btnDynamicPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Permission"/>
+
+
+</LinearLayout>
