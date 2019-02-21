@@ -64,6 +64,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Music Activity"/>
+    <Button
+        android:id="@+id/btnPersonRecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Person Recycler View"/>
 
 
 </LinearLayout>

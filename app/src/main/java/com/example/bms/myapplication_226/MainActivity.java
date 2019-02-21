@@ -147,6 +147,13 @@ public class MainActivity extends AppCompatActivity {
                 //finish();
             }
         });
+        findViewById(R.id.btnPersonRecyclerView).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,RecyclerViewAddRemoveActivity.class));
+                finish();
+            }
+        });
     }
 
     public void signOut() {
