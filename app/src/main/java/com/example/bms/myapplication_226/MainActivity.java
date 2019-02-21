@@ -140,6 +140,13 @@ public class MainActivity extends AppCompatActivity {
                 //finish();
             }
         });
+        findViewById(R.id.btnMusicActivity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,ListViewMusicActivity.class));
+                //finish();
+            }
+        });
     }
 
     public void signOut() {
