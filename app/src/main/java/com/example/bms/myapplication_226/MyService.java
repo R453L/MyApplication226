@@ -17,7 +17,7 @@ public class MyService extends Service {
     @Override
     public void onCreate() {
         Toast.makeText(getApplicationContext(),"Service Created",Toast.LENGTH_SHORT).show();
-        mPlayer = MediaPlayer.create(this,R.raw.must_be_love);
+        mPlayer = MediaPlayer.create(this,R.raw.mini_world);
         mPlayer.setLooping(false);
     }
 

@@ -161,6 +161,13 @@ public class MainActivity extends AppCompatActivity {
                 //finish();
             }
         });
+        findViewById(R.id.btnDatabaseActivity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,DatabaseActivity.class));
+                //finish();
+            }
+        });
     }
 
     public void signOut() {
