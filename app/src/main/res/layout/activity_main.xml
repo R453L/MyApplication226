@@ -8,81 +8,95 @@
     android:gravity="center_horizontal"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"/>
-
-    <Button
-        android:id="@+id/btnRecyclerView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Recycler View"/>
-    <Button
-        android:id="@+id/btnSurfaceView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Surface VIew"/>
-    <Button
-        android:id="@+id/btnService"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start Service"/>
-    <Button
-        android:id="@+id/btnBoundService"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bound Service"/>
-    <Button
-        android:id="@+id/btnIntentService"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="IntentService"/>
-    <Button
-        android:id="@+id/btnConnectionService"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Connection Service"/>
-    <Button
-        android:id="@+id/btnAsyncTask"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Async Task"/>
-    <Button
-        android:id="@+id/btnAsyncTaskLoadWebPage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Async Task Load Web Page"/>
-    <Button
-        android:id="@+id/btnDynamicPermission"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dynamic Permission"/>
-    <Button
-        android:id="@+id/btnMusicActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Music Activity"/>
-    <Button
-        android:id="@+id/btnPersonRecyclerView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Person Recycler View"/>
-    <Button
-        android:id="@+id/btnTestActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Test Activity"/>
-    <Button
-        android:id="@+id/btnDatabaseActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Database Activity"/>
-    <Button
-        android:id="@+id/btnJobScheduler"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Job Scheduler"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/tvUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"/>
+            <Button
+                android:id="@+id/btnRecyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recycler View"/>
+            <Button
+                android:id="@+id/btnSurfaceView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surface VIew"/>
+            <Button
+                android:id="@+id/btnService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Service"/>
+            <Button
+                android:id="@+id/btnBoundService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bound Service"/>
+            <Button
+                android:id="@+id/btnIntentService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IntentService"/>
+            <Button
+                android:id="@+id/btnConnectionService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connection Service"/>
+            <Button
+                android:id="@+id/btnAsyncTask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Async Task"/>
+            <Button
+                android:id="@+id/btnAsyncTaskLoadWebPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Async Task Load Web Page"/>
+            <Button
+                android:id="@+id/btnDynamicPermission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dynamic Permission"/>
+            <Button
+                android:id="@+id/btnMusicActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music Activity"/>
+            <Button
+                android:id="@+id/btnPersonRecyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person Recycler View"/>
+            <Button
+                android:id="@+id/btnTestActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Activity"/>
+            <Button
+                android:id="@+id/btnDatabaseActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Database Activity"/>
+            <Button
+                android:id="@+id/btnJobScheduler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Scheduler"/>
+            <Button
+                android:id="@+id/btnJobSchedulerServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Scheduler Services"/>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

@@ -16,8 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-
-        <activity android:name=".JobSchedulerActivity"/>
+        <activity android:name=".JobSchedulerServicesActivity"/>
+        <activity android:name=".JobSchedulerActivity" />
         <activity android:name=".DatabaseActivity" />
         <activity android:name=".TestActivity" />
         <activity android:name=".RecyclerViewAddRemoveActivity" />
@@ -39,6 +39,9 @@
             android:enabled="true" />
         <service
             android:name=".MyScheduleJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".JobSchedulerServices"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
 
         <activity android:name=".BoundServiceActivity" />
