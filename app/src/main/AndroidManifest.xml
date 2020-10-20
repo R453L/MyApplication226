@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.bms.myapplication_226">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,8 +14,11 @@
         android:label="App226"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".DatabaseActivity"></activity>
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".JobSchedulerServicesActivity"/>
+        <activity android:name=".JobSchedulerActivity" />
+        <activity android:name=".DatabaseActivity" />
         <activity android:name=".TestActivity" />
         <activity android:name=".RecyclerViewAddRemoveActivity" />
         <activity android:name=".ListViewMusicActivity" />
@@ -33,6 +37,12 @@
         <service
             android:name=".MyIntentService"
             android:enabled="true" />
+        <service
+            android:name=".MyScheduleJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".JobSchedulerServices"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
 
         <activity android:name=".BoundServiceActivity" />
         <activity android:name=".ServiceActivity" />

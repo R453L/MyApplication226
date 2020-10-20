@@ -168,6 +168,20 @@ public class MainActivity extends AppCompatActivity {
                 //finish();
             }
         });
+        findViewById(R.id.btnJobScheduler).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,JobSchedulerActivity.class));
+                //finish();
+            }
+        });
+        findViewById(R.id.btnJobSchedulerServices).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,JobSchedulerServicesActivity.class));
+                //finish();
+            }
+        });
     }
 
     public void signOut() {
